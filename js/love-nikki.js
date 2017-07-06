@@ -1,6 +1,7 @@
 $(function() {
 
   var columns = [
+    {"data": "Item Type", "title": "Type"},
     {"data": "Item Name", "title": "Name"},
     {"data": "Rarity", "title": "Rarity"},
     {"data": "Gorgeous", "title": "Gorgeous"},
@@ -13,8 +14,7 @@ $(function() {
     {"data": "Pure", "title": "Pure"},
     {"data": "Cool", "title": "Cool"},
     {"data": "Warm", "title": "Warm"},
-    {"data": "Tags", "title": "Tags"},
-    {"data": "Item Type", "title": "Type"}
+    {"data": "Tags", "title": "Tags"}
   ]
 
   var setup = function() {
